@@ -64,3 +64,8 @@ git config --get http.postBuffer
 | `merge.conflictStyle` | マージ時の競合表示スタイルを設定 | `git config --global merge.conflictStyle diff3` |
 | `diff.ignoreSubmodules` | サブモジュールの差分を無視する設定 | `git config --global diff.ignoreSubmodules dirty` |
 
+## さいごに
+勉強になりました。
+どなたかの助けになれば幸いです。
+
+ありがとうございました。
