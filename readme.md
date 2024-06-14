@@ -5,6 +5,8 @@
 このエラーで`GitHub`に`push`出来ませんでした。
 今更感がありますが、この問題に対処する過程で知った事柄やどのような手順で解決したかを残します。
 
+![](https://raw.githubusercontent.com/yKesamaru/about_git_buffer/master/assets/eye-catch.png)
+
 ## 環境
 ```bash
 $ inxi -Sxxx --filter
