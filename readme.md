@@ -1,4 +1,4 @@
-# 【今更】`git`の`push`が失敗する例と対策
+# 【今更】`Git`のバッファサイズを変更する
 
 ## はじめに
 `2024-06-14 17:23:03.176 [info] error: RPC failed; HTTP 400 curl 22 The requested URL returned error: 400`
@@ -16,7 +16,7 @@ System:
 ## 前提
 - ネット接続に問題はない（ファイアウォール等含める）
 - [GitHub Status](https://www.githubstatus.com/)にも問題はない
-  - ![](assets/2024-06-14-17-56-42.png)
+  - ![](https://raw.githubusercontent.com/yKesamaru/about_git_buffer/master/assets/2024-06-14-17-56-42.png)
 
 
 ## `Git`のバッファサイズについて
