@@ -1,4 +1,4 @@
-# `git`の`push`が失敗する例と対策
+# 【今更】`git`の`push`が失敗する例と対策
 
 ## はじめに
 `2024-06-14 17:23:03.176 [info] error: RPC failed; HTTP 400 curl 22 The requested URL returned error: 400`
@@ -20,7 +20,7 @@ System:
 
 
 ## `Git`のバッファサイズについて
-`GitHub`に`push`するとき、1つのファイルサイズの上限は`100MB`です。
+`GitHub`に`push`するとき、1つのファイルサイズの上限は`100MB`です。またリポジトリ全体の制限は`1GB`です。
 これだけに気を取られていましたが、1度に`push`するファイル数が多すぎる場合も問題が発生するようです。（この上限値はわかりません）
 この時問題となるのが`http.postBuffer`のサイズだということです。
 デフォルトでは`1MB`とのことです。この値を取得するには以下のようにします。
@@ -61,7 +61,4 @@ git config --get http.postBuffer
 | `credential.helper` | 認証情報をキャッシュする設定 | `git config --global credential.helper cache` |
 | `merge.conflictStyle` | マージ時の競合表示スタイルを設定 | `git config --global merge.conflictStyle diff3` |
 | `diff.ignoreSubmodules` | サブモジュールの差分を無視する設定 | `git config --global diff.ignoreSubmodules dirty` |
-
-
-
 
